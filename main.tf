@@ -1,13 +1,3 @@
-terraform {
-  required_version = ">= 1.8" # будут разрешены для использования все версии клиентов Terraform между
-  required_providers {
-    yandex = {
-      source  = "yandex-cloud/yandex"
-      version = "0.128.0"
-    }
-  }
-}
-
 resource "yandex_compute_instance" "http_server" {
   name = "http-server"
 
