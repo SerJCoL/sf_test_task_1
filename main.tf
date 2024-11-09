@@ -9,7 +9,7 @@ resource "yandex_compute_instance" "http_server" {
 
   boot_disk {
     initialize_params {
-      image_id = data.yandex_compute_image.my_image.id
+      image_id = "fd874d4jo8jbroqs6d7i"
     }
   }
 
